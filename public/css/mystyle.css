@@ -1,0 +1,96 @@
+*{margin: 0;
+    padding: 0;
+}
+img{max-width: 100%;
+    width: 100%;
+}
+.all-size1{
+    width: 80%;
+    margin: 0 auto;
+}
+.Shayii{
+    padding-top: 27px;
+    padding-bottom: 24px;
+}
+.header-footer{
+    background-color: #195774;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.banner img{
+    width: 100%;
+    margin-bottom: 84px;
+}
+.Puppies{
+    padding: 0 5%;
+    margin: 0 auto;
+}
+.missing{
+background-color:#EE4E65 ;
+
+text-align: center;
+align-items: center;
+font-size: 4vw;
+display: none;
+}
+.morePuppies{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.footer{
+    margin-top: 75px;
+    padding-top: 100px;
+    padding-bottom: 125px;
+}
+.two-puppies{
+    margin-bottom: 15px;
+}
+.two-puppies1{
+    margin-top: 75px;
+}
+.puppy-12{
+    margin-bottom: 75px;
+}
+
+@media(min-width:768px){
+.missing{
+    display: block; 
+    
+    }
+    .Puppies{
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .all-size1{
+        margin: 0 auto;
+      
+        width: 80%;
+        justify-content: space-between;
+    }
+    .puppy-12{
+        width: 32%;
+
+    }
+    .missing{
+        width: 32%;
+    }
+    .O2{
+        width: 32%;
+    }
+    .two-puppies, .two-puppies1{
+        width: 48%;
+    }
+    .two-puppies1{
+    margin-top: 0px;}
+.missing {
+    height: 179px;
+    height: 23.1vw;
+}
+}
+
+
+
